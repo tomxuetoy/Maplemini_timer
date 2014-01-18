@@ -39,9 +39,9 @@ void loop() {
     // While the button is held down, pause timer 4
     for (int i = 0; i < 1000; i++) {
         if (digitalRead(BOARD_BUTTON_PIN)) {
-            //timer4.pause();
+            timer4.pause();
         } else {
-            //timer4.resume();
+            timer4.resume();
         }
         delay(1);
     }
